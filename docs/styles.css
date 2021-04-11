@@ -1,0 +1,32 @@
+body {
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  align-content: center;
+  margin: auto;
+  max-width: 640px;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+p {
+  margin-top: 0pt;
+  margin-bottom: var(--spacing);
+}
+
+a {
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 390px;
+  margin-bottom: var(--spacing);
+}
+
+:root {
+  --spacing: 24px;
+  --text-color: #353535;
+}
